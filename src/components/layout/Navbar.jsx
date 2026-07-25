@@ -216,8 +216,7 @@ export default function Navbar() {
 
           {/* Outline Resume Button */}
           <a
-            href="/assets/resume/Anshu_Vijay_Ingle_Resume.pdf"
-            target="_blank"
+href={`${import.meta.env.BASE_URL}assets/resume/Anshu_Ingle_Developer_Resume.pdf`}           target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-wider px-4 py-2 border border-grid-light dark:border-grid-dark text-editorial-charcoal dark:text-editorial-ivory hover:text-accent-crimson dark:hover:text-accent-red hover:bg-hatch-light dark:hover:bg-hatch-dark transition-all duration-200 select-none flex items-center gap-2 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent-crimson"
           >
@@ -278,10 +277,7 @@ export default function Navbar() {
               <div className="pt-4 border-t border-grid-light/40 dark:border-grid-dark/40 flex flex-col gap-4">
                 {/* Resume button in mobile view */}
                 <a
-                  href="/assets/resume/Anshu_Vijay_Ingle_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full text-center font-mono text-xs uppercase tracking-wider py-2.5 border border-grid-light dark:border-grid-dark text-editorial-charcoal dark:text-editorial-ivory hover:bg-hatch-light dark:hover:bg-hatch-dark transition-all rounded-sm flex items-center justify-center gap-2"
+href={`${import.meta.env.BASE_URL}assets/resume/Anshu_Ingle_Developer_Resume.pdf`}                  className="w-full text-center font-mono text-xs uppercase tracking-wider py-2.5 border border-grid-light dark:border-grid-dark text-editorial-charcoal dark:text-editorial-ivory hover:bg-hatch-light dark:hover:bg-hatch-dark transition-all rounded-sm flex items-center justify-center gap-2"
                 >
                   <FiFileText size={14} className="stroke-[1.5px]" />
                   Resume

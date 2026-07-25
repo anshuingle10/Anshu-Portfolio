@@ -425,9 +425,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="/assets/resume/Anshu_Vijay_Ingle_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+href={`${import.meta.env.BASE_URL}assets/resume/Anshu_Ingle_Developer_Resume.pdf`}                  rel="noopener noreferrer"
                   className="px-6 py-3 border border-grid-light dark:border-grid-dark bg-transparent text-editorial-charcoal dark:text-editorial-ivory font-mono text-xs uppercase tracking-wider font-semibold hover:text-accent-crimson dark:hover:text-accent-red hover:bg-hatch-light dark:hover:bg-hatch-dark transition-all duration-200 rounded-sm flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-blueprint"
                 >
                   <FiFileText className="stroke-[1.5px]" />
@@ -1675,8 +1673,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="/assets/resume/Anshu_Vijay_Ingle_Resume.pdf"
-                    target="_blank"
+href={`${import.meta.env.BASE_URL}assets/resume/Anshu_Ingle_Developer_Resume.pdf`}                    target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 border border-grid-light dark:border-grid-dark bg-base-light/50 dark:bg-base-dark/50 hover:border-accent-blueprint dark:hover:border-accent-blueprintDark flex items-center justify-center rounded-sm text-editorial-charcoal dark:text-editorial-ivory hover:-translate-y-0.5 transition-all duration-300 shadow-sm relative group/btn"
                     title="Download Resume"
